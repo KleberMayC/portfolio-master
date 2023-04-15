@@ -1,6 +1,6 @@
 import React from "react";
 
-import Website from "../../assets/website.png";
+
 import Logo1 from "../../assets/logo/logo1.jpeg";
 import Logo2 from "../../assets/logo/logo2.jpeg";
 import Logo3 from "../../assets/logo/logo3.jpeg";
@@ -22,7 +22,7 @@ const Projetos = () => {
         </h1>
         <div className="websites">
           <a href="">
-            <img src={Website} width="600px" />
+            <img src={Logo1} width="600px" />
           </a>
         </div>
 
