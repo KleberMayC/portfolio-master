@@ -60,7 +60,7 @@ const Servicos = () => {
                   <h5>Designer (Logo, Banner, Thunbnail)</h5>
                   <p>
                     Deseja ter sua logo, banner ou thumbnail personalizado? com
-                    o nosso nosso time de designers será possível garantir as
+                    o nosso time de designers será possível garantir as
                     suas logos do seu servidor ou canal.
                   </p>
                 </div>
