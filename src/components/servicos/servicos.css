@@ -1,0 +1,132 @@
+.content {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+ }
+
+ .title {
+    display: flex;
+
+    flex-direction: column;
+    
+ }
+
+ .title h1 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+ }
+
+ .paragrafo{
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+ }
+ 
+ .title span{
+    color: #9a4dcac5;
+ }
+.servicos{
+    display: flex;
+    justify-content: center;
+
+}
+ .grid-container {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: auto auto auto;
+    width:80%;
+    padding:10px;
+  }
+
+  .grid-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+padding: 20px;
+    
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+  }
+
+  .grid-item p{
+
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 10px;
+  }
+
+  .roxo {
+    background-color: #9a4dcac5;
+    color: white;
+    
+  }
+ 
+
+
+
+
+
+
+@media screen and (max-width: 700px){
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        
+    }
+
+
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        
+        
+    }
+    .title h1 {
+      font-size: 50px;
+      margin-bottom: 50px;
+      margin-left: 0px;
+   }
+   .paragrafo{
+    font-size: 27px;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    width: 80%;
+ }
+
+    .grid-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 90%;
+    }
+    .grid-item{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .servicos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+    }
+    .dentro {
+      width: 100%;
+    }
+}
+
+
+
+ 

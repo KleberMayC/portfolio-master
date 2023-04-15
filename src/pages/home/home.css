@@ -1,0 +1,88 @@
+.main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    color: rgb(0, 0, 0);
+
+
+}
+
+.text {
+    
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    margin-top: 100px;
+    border-bottom: 1px solid #9b4dca;
+    width: 100%;
+}
+.dentroo {
+    margin-left: 200px
+}
+.text h3 {
+    font-size: 30px;
+}
+
+.text h1{
+    font-size: 60px;
+}
+
+.text p {
+    font-size: 25px;
+}
+
+.button{
+    display: flex;
+    
+    margin-top: 30px;
+    justify-content: left;
+    gap: 30px;
+}
+
+.button a {
+    width: 130px;
+    height: 40px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: rgb(255, 255, 255);
+    color: #9b4dca;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 100px;
+}
+
+.button a:hover{
+    
+    color: #000000;
+}
+
+.roxos {
+    color: #9b4dca;
+}
+
+ @media screen and (max-width: 700px){
+    .texto .dentroo{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+        
+    }
+    .dentroo {
+        margin-left: 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .paragrafo {
+        text-align: center;
+    }
+ }
