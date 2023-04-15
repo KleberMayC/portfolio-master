@@ -17,7 +17,7 @@ const Projetos = () => {
         </h2>
       </div>
       <div className="sites">
-        <h1 className="titles">
+        <h1>
           Site desenvolvido pelo Grupo Waxy <span className="roxos"> Code</span>
         </h1>
         <div className="websites">

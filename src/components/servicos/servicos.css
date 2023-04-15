@@ -78,7 +78,7 @@ padding: 20px;
         align-items: center;
         flex-direction: column;
         width: 100%;
-        
+        margin: 0;
     }
 
 
@@ -92,12 +92,12 @@ padding: 20px;
         
     }
     .title h1 {
-      font-size: 50px;
+      font-size: 30px;
       margin-bottom: 50px;
       margin-left: 0px;
    }
    .paragrafo{
-    font-size: 27px;
+    font-size: 20px;
     margin-bottom: 50px;
     margin-left: 0px;
     width: 80%;
@@ -108,13 +108,18 @@ padding: 20px;
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      width: 90%;
+      width: 100%;
+      
     }
     .grid-item{
       display: flex;
       justify-content: center;
       align-items: center;
       width: 100%;
+      margin-top: 25px;
+    }
+    .grid-item p{
+      font-size: 17px;
     }
     .servicos {
       display: flex;

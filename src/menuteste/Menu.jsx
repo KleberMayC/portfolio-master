@@ -15,6 +15,7 @@ function Menu() {
       <a href="/" className="navbar-logo">
         <img src={Logo} width="200px" />
       </a>
+
       <button className="menu-toggle" onClick={toggleMenu}>
         <span className={isOpen ? "bar bar-1 active" : "bar bar-1"}></span>
         <span className={isOpen ? "bar bar-2 active" : "bar bar-2"}></span>
@@ -25,7 +26,10 @@ function Menu() {
         <div className={isOpen ? "menu-nav menu-nav-active" : "menu-nav"}>
           <a href="/" className="nav-link">
             <span className="hover">
-              <Link to="/"> Home </Link>
+              <Link className="nav-link" to="/">
+                {" "}
+                Home{" "}
+              </Link>
             </span>
           </a>
           <a href="/servicos" className="nav-link">
