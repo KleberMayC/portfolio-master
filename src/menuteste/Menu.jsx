@@ -16,13 +16,19 @@ function Menu() {
         <img src={Logo} width="200px" />
       </a>
 
-      <button className="menu-toggle" onClick={toggleMenu}>
+  <button className="menu-toggle" onClick={toggleMenu}>
+        
         <span className={isOpen ? "bar bar-1 active" : "bar bar-1"}></span>
         <span className={isOpen ? "bar bar-2 active" : "bar bar-2"}></span>
         <span className={isOpen ? "bar bar-3 active" : "bar bar-3"}></span>
+
       </button>
 
+      
       <div className={isOpen ? "menu-nav menu-nav-active" : "menu-nav"}>
+      <div className="menu-nav">
+        
+      </div>
         <div className={isOpen ? "menu-nav menu-nav-active" : "menu-nav"}>
           <a href="/" className="nav-link">
             <span className="hover">

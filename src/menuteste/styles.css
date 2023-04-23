@@ -88,7 +88,6 @@
     right: 0;
     width: 100%;
     height: calc(50% - 4rem);
-    background-color: #ffffff;
     z-index: 2;
     transform: translateY(-100%);
     transition: all 0.3s ease-in-out;
@@ -96,6 +95,7 @@
   
   .menu-nav-active {
     transform: translateY(-4%);
+    background-color: #ffffff;
   }
   
   .nav-link {
@@ -137,6 +137,10 @@
   }
   .navbar-logo {
     transform: translateY(7%);
-}
+    display: block;
+  } 
+
+
+
 }
   
